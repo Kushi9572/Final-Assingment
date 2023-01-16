@@ -1,0 +1,56 @@
+body {
+    background-image: url('http://staff.hamk.fi/~tsaksa/temp/background-image.jpg');
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(105, 7, 114);
+    font-size: 15px;
+    width: 1080px;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(46, 2, 54);  
+    font-size: 30px;
+    text-align: center;
+}
+
+h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(46, 2, 54);  
+    font-size: 20px;
+}
+
+p{
+    text-align: justify;
+}
+
+.img-fluid {
+    width:fit-content;
+}
+
+@media  (max-width: 1080px) {
+
+    body {
+        width: fit-content;
+        margin: 0 16px 16px 16px;
+            
+    }
+    
+    .wrapper {
+        display : flex ;
+        justify-content : center ;
+        align-items:center ;
+        height : auto;
+        width: 100%;
+    }
+    
+    img {
+        display: block;
+        margin: 0 0 16px 0;
+    
+    }
+}
+
